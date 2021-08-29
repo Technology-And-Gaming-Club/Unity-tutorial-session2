@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class GunShootingScript : MonoBehaviour {
 	public float clipSize, remainingClip;
-	public Mesh bulletMesh;
-	public Material bulletMaterial;
-	public Vector3 bulletScale;
 	public Transform playerPos;
-
-	public float bulletSpeed;
 
 	void Start() {
 		remainingClip = clipSize;
